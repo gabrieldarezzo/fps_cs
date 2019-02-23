@@ -1,9 +1,11 @@
 ```
-cd C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg
-
-git clone https://github.com/gabrieldarezzo/fps_cs.git temp
-XCOPY /E /C /H /Y /i "temp\.git" "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\.git"
-rmdir /S /Q temp
+cd C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg  
+git clone https://github.com/gabrieldarezzo/fps_cs.git temp  
+XCOPY /E /C /H /Y /i "temp" "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg"  
+rmdir /S /Q temp\  
+rmdir /S /Q .git  
+rmdir /S /Q docs  
+rmdir /S /Q README.MD  
 ```   
 
 
