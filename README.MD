@@ -29,7 +29,7 @@ Explicação:
 "-noaafonts" Previne o aliasing das fontes;  
 "-high" Define o CSGO como Alta Prioridade nos processos do sistema;  
 "-console" Libera o modo desenvolvedor (') ao abrir  
-"+exec fps" Executa o arquivo fps.cfg ao iniciar   (veio do git)
+"+exec fps" Executa o arquivo fps.cfg ao iniciar   (veio do git)  
 "-threads 4" (Opcional) Habilita o uso dos Threads do processador;  
 
 
