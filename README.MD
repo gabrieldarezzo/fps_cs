@@ -20,7 +20,7 @@ Escolha um chamado/CARD da aba 'Sprint'.
 ![Config Ini](docs/start_ini.png)   
 
 ```
--novid -nojoy -noaafonts -high +exec fps -threads 4
+-novid -nojoy -noaafonts -high -console +exec fps -threads 4
 ```  
 
 Explicação:  
@@ -28,8 +28,12 @@ Explicação:
 "-nojoy" Remove o suporte à joystick do CSGO;  
 "-noaafonts" Previne o aliasing das fontes;  
 "-high" Define o CSGO como Alta Prioridade nos processos do sistema;  
-"-threads 4" (Opcional) Habilita o uso dos Threads do processador;  
+"-console" Libera o modo desenvolvedor (') ao abrir
 "+exec fps" Executa o arquivo fps.cfg ao iniciar   (veio do git)
+"-threads 4" (Opcional) Habilita o uso dos Threads do processador;  
+
+
+
 
 Na pasta:  
 C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg  
